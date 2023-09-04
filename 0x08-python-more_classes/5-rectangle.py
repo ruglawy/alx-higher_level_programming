@@ -65,7 +65,6 @@ class Rectangle:
         """return string rep for rectangle"""
         return "Rectangle({}, {})".format(self.__width, self.__height)
 
-    def __del___(self):
+    def __del__(self):
         """Print message"""
         print("Bye rectangle...")
-        del self

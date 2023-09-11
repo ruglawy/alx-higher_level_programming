@@ -6,5 +6,4 @@ class MyList(list):
     """ class """
     def print_sorted(self):
         """ func """
-        for el in self.sort():
-            print(el)
+        print(sorted(self))
